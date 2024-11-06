@@ -16,3 +16,4 @@ local.properties
 
 # Project exclude paths
 /mobilertc/build
+/mobilertc/mobilertc.aar
