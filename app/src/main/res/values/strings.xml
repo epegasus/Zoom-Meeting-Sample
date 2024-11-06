@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Zoom Meeting (Sample)</string>
+
+    <string name="initialing">Sdk Initializing…</string>
+    <string name="initialization_success">Sdk Initialization Success</string>
+    <string name="initialization_failure">Sdk Initialization Failure</string>
+
+    <string name="start_meeting">Start Meeting</string>
+
+    <string name="meeting_status_progress">Meeting(In Progress)</string>
+    <string name="meeting_status_success">Meeting(Success)</string>
+    <string name="meeting_status_failure">Meeting(Failure)</string>
+
+    <string name="meeting_number">Meeting Number</string>
+    <string name="meeting_password">Meeting Password</string>
+    <string name="join_meeting">Join Meeting</string>
+</resources>
