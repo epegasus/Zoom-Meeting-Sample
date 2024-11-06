@@ -15,7 +15,7 @@ android {
         versionName = "1.0"
 
         ndk {
-            abiFilters.addAll(listOf("x86", "x86_64"))
+            abiFilters.removeAll(listOf("x86", "x86_64"))
         }
     }
 
