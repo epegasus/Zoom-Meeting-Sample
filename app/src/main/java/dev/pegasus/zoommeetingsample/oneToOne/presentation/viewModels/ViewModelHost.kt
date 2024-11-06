@@ -40,8 +40,7 @@ class ViewModelHost(private val useCaseHost: UseCaseHost) : ViewModel() {
     }
 
     private fun initializeSdk() {
-        val jwtToken = useCaseHost.generateJwtToken()
-        useCaseHost.initSdk(jwtToken) { isInitialized ->
+        useCaseHost.initSdk { isInitialized ->
             _sdkInitializedLiveData.postValue(isInitialized)
         }
     }

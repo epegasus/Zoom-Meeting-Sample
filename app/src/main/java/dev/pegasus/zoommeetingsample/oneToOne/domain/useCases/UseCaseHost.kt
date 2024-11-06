@@ -15,11 +15,8 @@ import dev.pegasus.zoommeetingsample.oneToOne.data.repository.RepositoryHost
 
 class UseCaseHost(private val repositoryHost: RepositoryHost) {
 
-    fun generateJwtToken(): String {
-        return repositoryHost.generateMeetingJwtToken()
-    }
-
-    fun initSdk(jwtToken: String, callback: (Boolean) -> Unit) {
+    fun initSdk(callback: (Boolean) -> Unit) {
+        val jwtToken = repositoryHost.generateMeetingJwtToken()
         repositoryHost.initSdk(jwtToken, callback)
     }
 
