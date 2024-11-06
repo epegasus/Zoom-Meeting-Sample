@@ -6,9 +6,7 @@ This project is an Android application that integrates Zoom Meeting SDK, providi
 - **Start Meeting**: Authenticate using JWT and OAuth to start a Zoom meeting.
 - **Join Meeting**: Quickly join a Zoom meeting by entering the meeting ID and password without requiring any additional authentication.
 
-![ss_1](https://github.com/user-attachments/assets/8bba0273-c97f-433c-9643-66cb15cdcfd6)
-![ss_2](https://github.com/user-attachments/assets/fe3e277b-60c3-4895-96f7-b71ded618425)
-
+![image](https://github.com/user-attachments/assets/ba98910d-43ed-4ab5-a4a9-82e2c9914b5a)
 
 ## Getting Started
 To get started, clone the repository and follow the setup instructions provided below.
